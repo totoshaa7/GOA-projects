@@ -1,4 +1,4 @@
-name = "otuli
+name = "otuli"
 
 
 print(name)
