@@ -46,15 +46,29 @@ goto(200, 200)
 pendown()
 
 
-color("red")
-begin_fill()
-right(150)
-forward(200)
-left(120)
-forward(200)
-end_fill()
+
 
 #end of door
+
+#drawing a roof 
+
+penup()
+goto(200, 200)
+pendown()
+
+color("red")
+right("150")
+forward("200")
+left("150")
+
+
+begin_fill()
+
+end_fill()
+
+exitonclick()
+
+
 
 
 
