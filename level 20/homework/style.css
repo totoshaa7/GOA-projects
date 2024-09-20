@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.product-card {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.product-card p {
+    margin: 10px 0;
+}
+
+.product-card .price {
+    color: red;
+    font-weight: bold;
+}
