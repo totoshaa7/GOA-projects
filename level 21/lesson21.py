@@ -11,7 +11,4 @@ else:
 
     
 
-    countries = ["საქართველო", "კანადა", "ბრიტანეთი", "ამერიკა", "ფრანსია"]
-
-
-removed_country = countries.pop(4)
+    
