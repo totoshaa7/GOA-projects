@@ -1,3 +1,4 @@
+
 a {
     color: blue;
     text-decoration: none;
@@ -9,8 +10,52 @@ a:visited {
 }
 
 
-
 a:hover {
     color: red;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+
+
+.box1 {
+    padding: 10px
+}
+
+.box2 {
+    padding: 15px 20px; 
+}
+
+.box3 {
+    padding: 20px 10px 15px; 
+}
+
+.box4 {
+    padding: 5px 15px 10px 20px; 
+}
+
+.box5 {
+    padding: 30px;
+ }
+
+
+
+
+.container {
+    margin: 20px; 
+}
+
+.element {
+    margin: 10px 5px;
+}
+
+.item {
+    margin: 15px 20px 10px; 
+}
+
+.box {
+    margin: 5px 10px 15px 20px; 
+}
+
+.full-width {
+    margin: 0 ; 
 }
