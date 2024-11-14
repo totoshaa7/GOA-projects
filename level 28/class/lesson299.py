@@ -26,3 +26,7 @@ def check_number(number):
         return "რიცხვი უარყოფითია"
     else:
         return "რიცხვი ნულია"
+    
+    #4
+
+  

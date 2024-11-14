@@ -1,0 +1,16 @@
+.custom-element {
+    color: cadetblue; 
+    font-size: 18px; 
+    font-style: italic;
+    font-weight: bold; 
+    font-family: cursive, sans-serif; 
+    background-color: aliceblue; 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+body {
+    background-color: greenyellow;
+}
