@@ -1,0 +1,26 @@
+words = ["basketball", "goa", "football"]
+fruit_string = ", ".join(words)
+print(fruit_string)  
+
+#goa
+
+greeting = "good morning"
+
+uppercase_greeting = greeting.upper()
+
+print(uppercase_greeting)  
+
+#goa
+
+mixed_case = "PyThOn Is AwEsOmE because of goa!"
+lowercase_string = mixed_case.lower()
+print(lowercase_string)  
+
+#goa
+sentence = "The quick brown fox jumps over the lazy dog."
+words_list = sentence.split()
+print(words_list)  
+
+
+
+
