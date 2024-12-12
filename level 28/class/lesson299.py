@@ -19,14 +19,7 @@ print(count_words(text))
 #3
 
 
-def check_number(number):
-    if number > 0:
-        return "რიცხვი დადებითია"
-    elif number < 0:
-        return "რიცხვი უარყოფითია"
-    else:
-        return "რიცხვი ნულია"
-    
-    #4
 
+    
+ 
   
