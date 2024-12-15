@@ -1,0 +1,16 @@
+.h1 {
+    font-family: cursive;
+    font-weight: 100;
+    padding: 0%;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.li {
+    font-family: cursive;
+    font-weight: 100;
+    font-style: italic;
+    padding: 0%;
+    color: aquamarine;
+
+}
