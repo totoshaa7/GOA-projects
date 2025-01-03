@@ -1,0 +1,108 @@
+:root {
+    --element1-color: #a5887f;
+    --element1-bg: #c8b69c;
+    --element1-font-size: 1.2rem;
+    --element1-letter-spacing: 2px;
+
+    --element2-color: #4caf50;
+    --element2-bg: #e8f5e9;
+    --element2-font-size: 1.5rem;
+    --element2-padding: 10px;
+    --element2-margin: 20px;
+
+    --element3-transform: rotate(5deg);
+    --element3-transition: transform 0.3s ease;
+    --element3-position: relative;
+    --element3-bg: #bbdefb;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.sidebar, .content, .extra {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.sidebar {
+    flex: 1 1 20%;
+    background-color: #f4f4f4;
+}
+
+.content {
+    flex: 2 1 60%;
+    background-color: #fff;
+}
+
+.extra {
+    flex: 1 1 20%;
+    background-color: #f9f9f9;
+}
+
+.element1 {
+    color: var(--element1-color);
+    background-color: var(--element1-bg);
+    font-size: var(--element1-font-size);
+    letter-spacing: var(--element1-letter-spacing);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.element2 {
+    color: var(--element2-color);
+    background-color: var(--element2-bg);
+    font-size: var(--element2-font-size);
+    padding: var(--element2-padding);
+    margin: var(--element2-margin);
+    display: grid;
+    place-items: center;
+}
+
+.element3 {
+    background-color: var(--element3-bg);
+    transform: var(--element3-transform);
+    transition: var(--element3-transition);
+    position: var(--element3-position);
+    padding: 15px;
+    margin: 15px;
+}
+
+.element3:hover {
+    transform: rotate(0deg);
+}
+
