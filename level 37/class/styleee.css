@@ -1,0 +1,47 @@
+:root {
+  --color-1: white;
+  --bg-color-1: #007BFF;
+  --font-size-1: 20px;
+  --letter-spacing-1: 2px;
+  --display-1: flex;
+  --padding-1: 10px;
+  --margin-1: 15px;
+  --position-1: relative;
+  --transform-1: rotate(5deg);
+  --transition-1: all 0.3s ease;
+
+  --color-2: black;
+  --bg-color-2: #FFD700;
+  --font-size-2: 18px;
+  --letter-spacing-2: 1px;
+  --display-2: grid;
+  --padding-2: 15px;
+  --margin-2: 20px;
+  --position-2: absolute;
+  --transform-2: scale(1.1);
+  --transition-2: all 0.4s ease;
+
+  --color-3: #fff;
+  --bg-color-3: #28a745;
+  --font-size-3: 16px;
+  --letter-spacing-3: 3px;
+  --display-3: block;
+  --padding-3: 20px;
+  --margin-3: 25px;
+  --position-3: static;
+  --transform-3: translateX(10px);
+  --transition-3: all 0.5s ease;
+}
+
+.element-1 {
+    color: var(--color-1);
+    background-color: var(--bg-color-1);
+    font-size: var(--font-size-1);
+    letter-spacing: var(--letter-spacing-1);
+    display: var(--display-1);
+    padding: var(--padding-1);
+    margin: var(--margin-1);
+    position: var(--position-1);
+    transform: var(--transform-1);
+    transition: var(--transition-1);
+}
