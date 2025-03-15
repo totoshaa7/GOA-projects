@@ -18,3 +18,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#python
+age = 1 
+print(age)
+#იმიტომ დავწერე რომ პრობლემა შემექმნა ატვირთვაში
