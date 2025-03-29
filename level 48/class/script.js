@@ -1,6 +1,10 @@
-let age  = prompt("enter your age:")
-
-if(age >=19) {
-    alert("take your kindle")}
-else {
-alert("youre too young for a kindle")}
+function getnumber(color) 
+    if (color === "red") {
+        console.log(1);
+    } else if (color === "green") {
+        console.log(2);
+    } else if (color === "black") {
+        console.log(3);
+    } else {
+        console.log("unknown");
+    }
