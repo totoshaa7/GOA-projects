@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="el1">პირველი</div>
+<div class="el2">მეორე</div>
+<div data-info="third">მესამე</div>
+
+<script>
+  document.getElementById("el1").style.color = "red";
+  document.querySelector(".el2").style.color = "blue";
+  document.querySelector("[data-info='third']").style.color = "green";
+</script>
+
+</body>
+</html>
