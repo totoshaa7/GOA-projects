@@ -1,0 +1,10 @@
+ .box {
+    width: 320px; height: 220px;
+    background-size: cover;
+    margin-bottom: 21px;
+    cursor: pointer;
+    transition: background-image 0.5s;
+  }
+   #hoverDiv { background-image: url('download (1).jpg'); }
+  #hoverDiv:hover { background-image: url('download (1).jpg'); } 
+  #clickDiv { background-image: url('download (1).jpg'); }

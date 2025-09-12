@@ -1,0 +1,60 @@
+<div id="myDiv">Hello</div>
+<script>
+  document.getElementById("myDiv").classList.add("highlight");
+</script>
+
+<script>
+  document.getElementById("myDiv").classList.remove("highlight");
+</script>
+
+<button id="toggleButton">Toggle</button>
+<div id="targetDiv">Toggle target</div>
+
+<script>
+  document.getElementById("toggleButton").addEventListener("click", function() {
+    document.getElementById("targetDiv").classList.toggle("active");
+  });
+</script>
+
+<p id="checkParagraph" class="important">Important Paragraph</p>
+<script>
+  const hasClass = document.getElementById("checkParagraph").classList.contains("important");
+  console.log(hasClass);
+</script>
+
+<div id="replaceDiv" class="red">Replace Me</div>
+<script>
+  document.getElementById("replaceDiv").classList.replace("red", "blue");
+</script>
+
+<div id="itemDiv" class="class1 class2 class3">Class Item</div>
+<script>
+  const className = document.getElementById("itemDiv").classList.item(1);
+  console.log(className); 
+</script>
+
+<!--dom-->
+
+<ul id="myUl">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li id="changeMe">Item 3</li>
+</ul>
+
+<p id="myParagraph">Old text here</p>
+<script>
+  document.getElementById("myParagraph").textContent = "New text content!";
+</script>
+
+<ul id="myList"></ul>
+<script>
+  let li = document.createElement("li");
+  li.textContent = "New list item";
+  document.getElementById("myList").appendChild(li);
+</script>
+
+<ul id="removableList">
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+</ul>

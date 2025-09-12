@@ -1,0 +1,19 @@
+ #box {
+      width: 150px;
+      height: 150px;
+      background: lightblue;
+      margin: 50px auto;
+      transition: 0.3s;
+      text-align: center;
+      line-height: 150px;
+      font-weight: bold;
+  }
+
+    .big {
+      width: 300px;
+      height: 300px;
+    }
+
+    .color {
+      background: orange;
+    }
